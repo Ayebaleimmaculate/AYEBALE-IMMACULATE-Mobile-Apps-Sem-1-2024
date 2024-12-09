@@ -15,8 +15,8 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false, // Disables the debug banner
       title: 'Login App',
       theme: ThemeData(
-        primarySwatch: Colors.blue,
-      ),
+          //primarySwatch: Colors.blue,
+          ),
       home: const LoginScreen(), // Initial screen when the app starts
     );
   }
